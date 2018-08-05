@@ -1,0 +1,38 @@
+body {
+  font-family: "Franklin Gothic";
+}
+
+nav {
+  background-color: black;
+  color: aliceblue;
+  font-size: medium;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  text-align: center;
+}
+
+nav a {
+  padding: 0 1em;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+#bio {
+  background-color: aqua;
+}
+
+#experience {
+  background-color: blueviolet;
+}
+
+#projects {
+  background-color: darkolivegreen;
+}
+
+#hobbies {
+  background-color: lightpink;
+}

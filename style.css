@@ -1,26 +1,74 @@
 body {
   font-family: "Franklin Gothic";
+  /*background: linear-gradient(rgb(255, 0, 128), rgb(163,73,164), blue);*/
+  background-color: rgba(233,212,185, 0.15);
+  background-image: repeating-linear-gradient(45deg, transparent 5px, rgba(0, 0, 255, 0.15) 5px, rgba(0, 0, 255, 0.15) 10px,
+  rgba(255, 0, 128, 0) 10px, rgba(255, 0, 128, 0) 35px, rgba(255, 0, 128, 0.15) 35px, rgba(255, 0, 128, 0.15) 40px,
+  rgba(0, 0, 255, 0.15) 40px, rgba(0, 0, 255, 0.15) 50px, rgba(0, 0, 255, 0) 50px, rgba(0, 0, 255, 0) 60px,
+  rgba(255, 0, 128, 0.15) 60px, rgba(255, 0, 128, 0.15) 70px, rgba(255, 0, 128, 0.15) 70px, rgba(163, 73, 164, 0.15) 80px,
+  rgba(163, 73, 164, 0) 80px, rgba(163, 73, 164, 0) 90px, rgba(255, 0, 128, 0.15) 90px, rgba(255, 0, 128, 0.15) 110px,
+  rgba(255, 0, 128, 0) 110px, rgba(255, 0, 128, 0) 120px, rgba(0, 0, 255, 0.15) 120px, rgba(0, 0, 255, 0.15) 140px),
+  repeating-linear-gradient(135deg, transparent 5px, rgba(0, 0, 255, 0.15) 5px, rgba(0, 0, 255, 0.15) 10px,
+  rgba(255, 0, 128, 0) 10px, rgba(255, 0, 128, 0) 35px, rgba(255, 0, 128, 0.15) 35px, rgba(255, 0, 128, 0.15) 40px,
+  rgba(0, 0, 255, 0.15) 40px, rgba(0, 0, 255, 0.15) 50px, rgba(0, 0, 255, 0) 50px, rgba(0, 0, 255, 0) 60px,
+  rgba(255, 0, 128, 0.15) 60px, rgba(255, 0, 128, 0.15) 70px, rgba(163, 73, 164, 0.15) 70px, rgba(163, 73, 164, 0.15) 80px,
+  rgba(163, 73, 164, 0) 80px, rgba(163, 73, 164, 0) 90px, rgba(255, 0, 128, 0.15) 90px, rgba(255, 0, 128, 0.15) 110px,
+  rgba(255, 0, 128, 0) 110px, rgba(255, 0, 128, 0) 140px, rgba(0, 0, 255, 0.15) 140px, rgba(0, 0, 255, 0.15) 160px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#frost {
+  background: rgba(255,255,255, 0.6);
+  width: 80%;
+  margin: auto;
+  /*position: absolute;*/
+}
+
+.subsec{
+  padding: 0.5em;
+  text-align: center;
+  margin: 0 3em;
+}
+
+
+h2 {
+  color: rgb(98, 0, 255);
 }
 
 nav {
   background-color: black;
-  color: aliceblue;
   font-size: medium;
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 5;
   text-align: center;
+  padding: 0.5em;
 }
 
 nav a {
   padding: 0 1em;
+  color: aliceblue;
+}
+
+#welcome {
+  margin-top: 3em;
 }
 
 footer {
   background-color: black;
   text-align: center;
+  width: 100%;
 }
 
+footer h2 {
+  color: aliceblue;
+}
+
+/*
 #bio {
   background-color: aqua;
 }
@@ -36,3 +84,4 @@ footer {
 #hobbies {
   background-color: lightpink;
 }
+*/
